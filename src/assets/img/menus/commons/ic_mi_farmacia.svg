@@ -1,0 +1,27 @@
+<svg id="ic_mi_farmacia" xmlns="http://www.w3.org/2000/svg" width="24.001" height="24.001" viewBox="0 0 24.001 24.001">
+  <g id="Grupo_4085" data-name="Grupo 4085" transform="translate(-65.999 -99)">
+    <g id="Grupo_3697" data-name="Grupo 3697" transform="translate(-146 23)">
+      <rect id="Rectángulo_2189" data-name="Rectángulo 2189" width="24" height="24" transform="translate(212 76)" fill="none"/>
+      <g id="Grupo_4085-2" data-name="Grupo 4085" transform="translate(304.873 -40.057)">
+        <g id="Rectángulo_2189-2" data-name="Rectángulo 2189">
+          <rect id="Rectángulo_2519" data-name="Rectángulo 2519" width="24" height="24" transform="translate(-92.874 116.058)" fill="none"/>
+        </g>
+        <g id="Grupo_6541" data-name="Grupo 6541" transform="translate(-236.873 116.057)">
+          <rect id="Rectángulo_2715" data-name="Rectángulo 2715" width="24" height="24" transform="translate(144)" fill="none"/>
+          <g id="Grupo_6539" data-name="Grupo 6539" transform="translate(31)">
+            <g id="Grupo_6315" data-name="Grupo 6315" transform="translate(-285.5 -501)">
+              <path id="Trazado_2304" data-name="Trazado 2304" d="M16,11.447c-1.331,0-4,.569-4,1.7v2.3h8v-2.3C20,12.016,17.331,11.447,16,11.447Z" transform="translate(394.501 497.553)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="2"/>
+              <g id="Rectángulo_2539" data-name="Rectángulo 2539" transform="translate(400.5 512)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                <rect width="20" height="13" stroke="none"/>
+                <rect x="1" y="1" width="18" height="11" fill="none"/>
+              </g>
+              <path id="Trazado_2306" data-name="Trazado 2306" d="M17,10a2,2,0,1,0-2-2A2,2,0,0,0,17,10Z" transform="translate(393.5 496)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="2"/>
+            </g>
+            <path id="Trazado_2501" data-name="Trazado 2501" d="M-19958-23704.723v5" transform="translate(20083 23719.723)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="2"/>
+            <path id="Trazado_2502" data-name="Trazado 2502" d="M-19958-23704.723v5" transform="translate(-23577.223 19975.5) rotate(90)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="2"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

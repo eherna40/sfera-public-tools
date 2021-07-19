@@ -1,0 +1,8 @@
+{
+    "Campo obligatorio": "Campo {{ field }} obligatorio",
+    "Mínimo 6 dígitos": "Mínimo 6 dígitos",
+    "Código de la farmacia": "Código de la farmacia",
+    "Código PIN": "Código PIN",
+    "Usuario / E-mail / NIF": "Usuario / E-mail / NIF",
+    "Introduzca sus datos": "Introduce tus datos de acceso"
+}

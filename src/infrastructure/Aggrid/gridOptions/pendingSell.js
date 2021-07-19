@@ -1,0 +1,57 @@
+export const pendingSell = [
+  {
+    id: 0,
+    field: 'fecha',
+    headerName: 'Fecha',
+    width: 300,
+    type: ['first', 'text'],
+    floatingFilter: true,
+    resizable: true,
+    sortable: true,
+  },
+  {
+    field: 'employee',
+    headerName: 'Empleado',
+    width: 200,
+    type: ['text'],
+    floatingFilter: true,
+    colId: 'employee',
+    resizable: true,
+    sortable: true,
+  },
+  {
+    field: 'client',
+    headerName: 'Cliente',
+    width: 300,
+    type: ['text'],
+    resizable: true,
+    sortable: true,
+  },
+  {
+    field: 'sub_client',
+    headerName: 'Subcliente',
+    width: 300,
+    type: ['text'],
+    resizable: true,
+    sortable: true,
+  },
+
+  {
+    field: 'article_number',
+    headerName: 'Nº Articulo',
+    width: 180,
+    type: ['text'],
+  },
+  {
+    field: 'total_gross',
+    headerName: 'Total Bruto',
+    width: 180,
+    type: ['text'],
+  },
+  {
+    field: 'total',
+    headerName: 'Total',
+    width: 180,
+    type: ['text'],
+  },
+]

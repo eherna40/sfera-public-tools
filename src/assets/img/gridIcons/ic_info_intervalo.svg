@@ -1,0 +1,8 @@
+<svg id="ic_info_intervalo" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_2331" data-name="Rectángulo 2331" width="20" height="20" fill="none"/>
+  <g id="Elipse_380" data-name="Elipse 380" transform="translate(2 2)" fill="none" stroke="#786ade" stroke-width="2">
+    <circle cx="8" cy="8" r="8" stroke="none"/>
+    <circle cx="8" cy="8" r="7" fill="none"/>
+  </g>
+  <path id="Trazado_1968" data-name="Trazado 1968" d="M7435,2240.066v4.089l1.987,1.987" transform="translate(-7425 -2234)" fill="none" stroke="#786ade" stroke-width="2"/>
+</svg>

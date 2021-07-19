@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="10" height="13.5" viewBox="0 0 10 13.5">
+  <g id="Grupo_2634" data-name="Grupo 2634" transform="translate(-63 -437.5)">
+    <g id="Rectángulo_1623" data-name="Rectángulo 1623" transform="translate(63 443)" fill="#eeecfb" stroke="#b2a8f8" stroke-linejoin="round" stroke-width="1">
+      <rect width="10" height="8" stroke="none"/>
+      <rect x="0.5" y="0.5" width="9" height="7" fill="none"/>
+    </g>
+    <circle id="Elipse_273" data-name="Elipse 273" cx="1" cy="1" r="1" transform="translate(67 446)" fill="#b2a8f8"/>
+    <path id="Trazado_1436" data-name="Trazado 1436" d="M3,0A3,3,0,0,1,3,6H.2" transform="translate(65 444) rotate(-90)" fill="none" stroke="#b2a8f8" stroke-width="1"/>
+  </g>
+</svg>

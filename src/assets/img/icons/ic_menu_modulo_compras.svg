@@ -1,0 +1,11 @@
+<svg id="ic_menu_modulo_compras" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="store-24px">
+    <path id="Trazado_1238" data-name="Trazado 1238" d="M0,0H24V24H0Z" fill="none"/>
+  </g>
+  <g id="Grupo_1822" data-name="Grupo 1822" transform="translate(3 6)">
+    <rect id="Rectángulo_1308" data-name="Rectángulo 1308" width="5.727" height="9.75" transform="translate(1.636 3.25)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="0.6"/>
+    <rect id="Rectángulo_1309" data-name="Rectángulo 1309" width="9" height="9.75" transform="translate(7.364 3.25)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="0.6"/>
+    <path id="Trazado_1240" data-name="Trazado 1240" d="M-11254.363-3966.75-11256-3970h5.727l1.637,3.25" transform="translate(11255.999 3970)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="0.6"/>
+    <path id="Trazado_1241" data-name="Trazado 1241" d="M-11247-3966.75l1.636-3.25h-9l-1.636,3.25" transform="translate(11263.362 3970)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="0.6"/>
+  </g>
+</svg>

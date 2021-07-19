@@ -1,0 +1,17 @@
+<svg id="ic_info_medidas_dieteticas" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Polígono_33" data-name="Polígono 33" d="M9,0l9,16.875H0Z" fill="#b9b9b9"/>
+    </clipPath>
+  </defs>
+  <rect id="Rectángulo_2332" data-name="Rectángulo 2332" width="20" height="20" fill="none"/>
+  <g id="Grupo_3785" data-name="Grupo 3785" transform="translate(-266 -368)">
+    <g id="Enmascarar_grupo_41" data-name="Enmascarar grupo 41" transform="translate(267 369)" clip-path="url(#clip-path)">
+      <rect id="Rectángulo_2334" data-name="Rectángulo 2334" width="19.125" height="6" transform="translate(-1.125 11.25)" fill="#71d875"/>
+      <rect id="Rectángulo_2335" data-name="Rectángulo 2335" width="19.125" height="6" transform="translate(-1.125)" fill="#ff5b52"/>
+      <rect id="Rectángulo_2336" data-name="Rectángulo 2336" width="19.125" height="6" transform="translate(-1.125 5.625)" fill="#ffb500"/>
+    </g>
+    <circle id="Elipse_381" data-name="Elipse 381" cx="4" cy="4" r="4" transform="translate(272 376.875)" fill="#fff"/>
+    <path id="Trazado_1969" data-name="Trazado 1969" d="M7478.033,2246.16l1.6,1.592,3-2.946" transform="translate(-7204.271 -1865.906)" fill="none" stroke="#786ade" stroke-width="1.5"/>
+  </g>
+</svg>

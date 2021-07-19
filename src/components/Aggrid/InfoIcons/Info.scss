@@ -1,0 +1,23 @@
+[col-id*="info"]{
+  .ag-react-container{
+    height: 100%;
+  }
+}
+
+.infoIcons{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+  margin-left: -5px;
+  background-color: transparent;
+  border: 0;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  &:focus{
+    outline: none
+  }
+}

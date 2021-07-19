@@ -1,0 +1,13 @@
+<svg id="ic_info_riesgo_sobredosis" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Grupo_3787" data-name="Grupo 3787" transform="translate(-268 -367)">
+    <rect id="Rectángulo_2332" data-name="Rectángulo 2332" width="20" height="20" transform="translate(268 367)" fill="none"/>
+    <g id="Polígono_34" data-name="Polígono 34" transform="translate(269 368)" fill="none">
+      <path d="M9,0l9,16.875H0Z" stroke="none"/>
+      <path d="M 9 4.250011444091797 L 3.333339691162109 14.875 L 14.66666030883789 14.875 L 9 4.250011444091797 M 9 0 L 18 16.875 L 0 16.875 L 9 0 Z" stroke="none" fill="#ff5b52"/>
+    </g>
+  </g>
+  <g id="Grupo_3788" data-name="Grupo 3788" transform="translate(-307.8 -366.8)">
+    <rect id="Rectángulo_2337" data-name="Rectángulo 2337" width="1.5" height="3" transform="translate(317 376)" fill="#ff5b52"/>
+    <rect id="Rectángulo_2338" data-name="Rectángulo 2338" width="1.5" height="1.5" transform="translate(317 380)" fill="#ff5b52"/>
+  </g>
+</svg>

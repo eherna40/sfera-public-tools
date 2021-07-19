@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26.5" height="22.502" viewBox="0 0 26.5 22.502">
+  <g id="ic_master_addNew" transform="translate(-8.249 -11.248)">
+    <g id="Grupo_3" data-name="Grupo 3" transform="translate(-337.001 -903)">
+      <g id="Grupo_2" data-name="Grupo 2" transform="translate(-78.999 -11)">
+        <g id="Grupo_1" data-name="Grupo 1" transform="translate(425 926)">
+          <path id="Trazado_1" data-name="Trazado 1" d="M1,0H5.682a1,1,0,0,1,1,1v9.208a1,1,0,0,1-1,1H1a1,1,0,0,1-1-1V1A1,1,0,0,1,1,0Z" transform="translate(1.909 3.792)" fill="none" stroke="#786ade" stroke-width="1.5"/>
+          <path id="Trazado_2" data-name="Trazado 2" d="M1,0H9.5a1,1,0,0,1,1,1v9.208a1,1,0,0,1-1,1H1a1,1,0,0,1-1-1V1A1,1,0,0,1,1,0Z" transform="translate(8.591 3.792)" fill="none" stroke="#786ade" stroke-width="1.5"/>
+          <path id="Trazado_3" data-name="Trazado 3" d="M-11254.1-3966.21l-1.9-3.79h6.682l1.909,3.792" transform="translate(11255.999 3970)" fill="none" stroke="#786ade" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <path id="Trazado_4" data-name="Trazado 4" d="M-11245.5-3966.21l1.908-3.792h-10.5l-1.908,3.792" transform="translate(11264.59 3970)" fill="none" stroke="#786ade" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        </g>
+        <path id="Trazado_5" data-name="Trazado 5" d="M385,1768h7" transform="translate(45.833 -827)" fill="none" stroke="#786ade" stroke-linejoin="round" stroke-width="1.5"/>
+      </g>
+      <path id="Trazado_6" data-name="Trazado 6" d="M7-.5a6,6,0,1,1-6,6,6,6,0,0,1,6-6Z" transform="translate(358 924.5)" fill="#fff" stroke="#786ade" stroke-width="1.5"/>
+      <path id="Trazado_7" data-name="Trazado 7" d="M363.5,925.757v4" transform="translate(1.501 2.243)" fill="none" stroke="#786ade" stroke-linecap="round" stroke-width="1.5"/>
+      <path id="Trazado_8" data-name="Trazado 8" d="M363.5,925.757v4" transform="translate(1292.758 566.5) rotate(90)" fill="none" stroke="#786ade" stroke-linecap="round" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

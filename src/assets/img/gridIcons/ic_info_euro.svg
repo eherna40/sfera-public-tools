@@ -1,0 +1,8 @@
+<svg id="ic_info_euro" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_2275" data-name="Rectángulo 2275" width="20" height="20" fill="none"/>
+  <g id="Elipse_372" data-name="Elipse 372" transform="translate(3 3)" fill="none" stroke="#786ade" stroke-width="2">
+    <circle cx="7" cy="7" r="7" stroke="none"/>
+    <circle cx="7" cy="7" r="6" fill="none"/>
+  </g>
+  <text id="_" data-name="€" transform="translate(9.9 12.8)" fill="#786ade" font-size="8" font-family="Raleway-Black, Raleway" font-weight="800" letter-spacing="0.05em"><tspan x="-3.208" y="0">€</tspan></text>
+</svg>

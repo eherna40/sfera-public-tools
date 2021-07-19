@@ -1,0 +1,119 @@
+name: Frontend Build docker image, push to Amazon ECR and deploy to PROD
+on:
+  push:
+    tags:
+    - 'prod.*'
+
+env:
+  CLUSTER_NAME: labelgrup-prod
+  K8S_REGION: eu-central-1
+  K8S_APP_FOLDER: frontend
+  K8S_ROOT_FOLDER: ./kubernetes/labelgrup-prod/sfera
+  K8S_HELPERS_FOLDER: kubernetes/scripts/githubActionsHelpers
+  AWS_SECRET_NAME: SFERA_PROD_FRONTEND
+
+jobs:
+  docker-build:
+    name: Docker Build and Push to Amazon ECR
+    runs-on: ubuntu-20.04
+
+    steps:
+    - name: Github Repository checkout
+      uses: actions/checkout@v2
+
+    - name: Configure AWS Credentials
+      uses: aws-actions/configure-aws-credentials@v1
+      with:
+        aws-access-key-id: ${{ secrets.PIPELINE_TF_AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.PIPELINE_TF_AWS_SECRET_ACCESS_KEY }}
+        aws-region: "eu-central-1"
+
+    - name: Login to Amazon ECR
+      id: login-ecr
+      uses: aws-actions/amazon-ecr-login@v1
+
+    - name: Get the version
+      id: get_version
+      run: echo ::set-output name=VERSION::${GITHUB_REF/refs\/tags\//}
+
+    - name: Build, tag, and push image to Amazon ECR
+      env:
+        ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
+        ECR_REPOSITORY: sfera-frontend
+        IMAGE_TAG: ${{ steps.get_version.outputs.VERSION }}
+        IMAGE_TAG_LATEST: latest
+      run: |
+        docker build --build-arg NPM_RUN_ENV=pro -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
+        docker build --build-arg NPM_RUN_ENV=pro -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG_LATEST .
+        # docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
+        # docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG_LATEST .
+        docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
+        docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG_LATEST
+
+  k8s-deployment:
+    name: K8s deployment to PROD
+    runs-on: ubuntu-20.04
+    needs: docker-build
+
+    steps:  
+
+    - name: Checkout kubernetes repo
+      uses: actions/checkout@v2
+      with:
+        repository: labelgrupnetworks/02379_SERTECFARMASL_Kubernetes
+        path: kubernetes
+        token: 508d1837bcbd2f7bed83d93c63c5fd815c2059cc
+
+    - name: Install kubectl
+      run: |
+        sudo apt update
+        sudo apt-get install -y apt-transport-https ca-certificates curl
+        sudo curl -fsSLo /usr/share/keyrings/kubernetes-archive-keyring.gpg https://packages.cloud.google.com/apt/doc/apt-key.gpg
+        echo "deb [signed-by=/usr/share/keyrings/kubernetes-archive-keyring.gpg] https://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee /etc/apt/sources.list.d/kubernetes.list
+        sudo apt update
+        sudo apt search kubectl
+        sudo apt install -y kubectl
+
+    - name: Configure AWS Credentials
+      uses: aws-actions/configure-aws-credentials@v1
+      with:
+        aws-access-key-id: ${{ secrets.PIPELINE_TF_AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.PIPELINE_TF_AWS_SECRET_ACCESS_KEY }}
+        aws-region: "eu-central-1"
+
+    - name: Connect with EKS Cluster
+      run: aws eks --region $K8S_REGION update-kubeconfig --name $CLUSTER_NAME
+
+    - name: Get the version
+      id: get_version
+      run: echo ::set-output name=VERSION::${GITHUB_REF/refs\/tags\//}
+
+    - name: Replace Terraform template vars before provision
+      run: |
+        sed -i 's/{{Values.K8s.DockerImageVersion}}/${{ steps.get_version.outputs.VERSION }}/g' $K8S_ROOT_FOLDER/$K8S_APP_FOLDER/deployment.yaml
+
+    - name: Getting from AWS using aws cli and parsing
+      run:  |
+        sudo snap install yq
+        # getting secrets
+        # FRONTEND_SECRETS="$(aws secretsmanager get-secret-value --secret-id $AWS_SECRET_NAME | jq -r '.SecretString' | yq eval - | sed 's/^{//' | sed 's/}$//' | sed 's/\":/\"/g' | sed 's/\",/\"/g')"
+        aws secretsmanager get-secret-value --secret-id $AWS_SECRET_NAME | jq -r '.SecretString' | yq eval - | sed 's/^{//' | sed 's/}$//' | sed 's/: /=/g' | sed 's/",/"/g' | sed 's/" "/;/g' | sed 's/"//g' | sed 's/;/\n/g' > /tmp/awssecrets.txt
+        # Replace K8S deployment env vars before deploy it from awssecrets file generated above
+        sed -i -e 's/^/    /g' /tmp/awssecrets.txt
+        sed -i -e '/{{Values.K8s.EnvVars}}/{r /tmp/awssecrets.txt' -e 'd}' $K8S_ROOT_FOLDER/$K8S_APP_FOLDER/secret.yaml
+        rm /tmp/awssecrets.txt
+
+    - name: Validate K8s resources
+      run: |
+        for resource in $K8S_ROOT_FOLDER/$K8S_APP_FOLDER/*.yaml; do kubectl apply --validate=true --dry-run=client -f $resource; done
+        kubectl apply --validate=true --dry-run=true -f $K8S_ROOT_FOLDER/namespace.yaml
+        # kubectl apply --validate=true --dry-run=true -f $K8S_ROOT_FOLDER/ingress.yaml
+
+    - name: Apply K8s namespace
+      run: kubectl apply -f $K8S_ROOT_FOLDER/namespace.yaml
+
+    - name: Apply K8s ingress
+      run: kubectl apply -f $K8S_ROOT_FOLDER/ingress.yaml
+
+    - name: Apply K8s files
+      run: for resource in $K8S_ROOT_FOLDER/$K8S_APP_FOLDER/*.yaml; do kubectl apply -f $resource; done

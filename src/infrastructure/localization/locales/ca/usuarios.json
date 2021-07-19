@@ -1,0 +1,25 @@
+{
+    "AÑADIR NUEVO USUARIO": "AFEGIR NOU USUARI",
+    "DATOS DEL USUARIO": "DADES DE L'USUARI",
+    "DATOS DE CONTACTO": "DADES DE CONTACTE",
+    "OBSERVACIONES": "OBSERVACIONS",
+    "INFORMACIÓN DEL USUARIO": "INFORMACIÓ DE L'USUARI",
+    "Perfil administrador": "Perfil administrador",
+    "Datos personales": "Dades personals",
+    "Edita y completa la información básica de acceso de tu colaborador": "Afegeix les credencials d'accés i les dades personals de l'empleat.",
+    "Aplicaciones y roles": "Aplicacions i rols",
+    "Asígnale un perfil predeterminado o personalizado para cada aplicación.": "Concedeix l'accés a l'empleat a aquelles aplicacions desitjades i configura un tipus per defecte per a cadascuna d'ells",
+    "Resumen": "Resum",
+    "Comprueba toda la información de tu colaborador": "Comprova que les dades introduïdes són correctes per a poder finalitzar el procés d'alta d'un usuari",
+    "Invitar a equipo": "Convidar a equip",
+    "Conceda el acceso a sus empleados y configure un tipo de usuario por defecto": "Concedeix l'accés als seus empleats i configura un tipus d'usuari per defecte",
+    "AÑADIR NUEVO EMPLEADO": "AFEGIR NOU EMPLEAT",
+    "Desde tu galería": "Des de la teva galeria",
+    "Desde tu cámara": "Des de la teva càmera",
+    "ACTIVAR CAMARA": "ACTIVAR CAMARA",
+    "No tienes permisos para actualizar este usuario": "No tens permisos per actualitzar aquest usuari",
+    "DETALLES DEL ROL": "DETALLS DEL ROL",
+    "MODIFICAR USUARIO": "MODIFICAR USUARI",
+    "Un usuario no se puede cambiar permisos a sí mismo": "Un usuari no es pot canviar permisos a si mateix"
+
+}

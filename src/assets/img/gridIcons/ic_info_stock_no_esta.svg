@@ -1,0 +1,9 @@
+<svg id="ic_info_stock_no_esta" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_2297" data-name="Rectángulo 2297" width="20" height="20" fill="none"/>
+  <g id="Rectángulo_2298" data-name="Rectángulo 2298" transform="translate(2 6)" fill="none" stroke="#ffb500" stroke-width="2">
+    <rect width="16" height="12" stroke="none"/>
+    <rect x="1" y="1" width="14" height="10" fill="none"/>
+  </g>
+  <text id="_" data-name="?" transform="translate(10 15)" fill="#ffb500" font-size="8" font-family="Raleway-Black, Raleway" font-weight="800" letter-spacing="0.05em"><tspan x="-1.98" y="0">?</tspan></text>
+  <rect id="Rectángulo_2302" data-name="Rectángulo 2302" width="16" height="2" transform="translate(2 2)" fill="#ffb500"/>
+</svg>

@@ -1,0 +1,11 @@
+<svg id="ic_menu_modulo_ventas" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="Rectángulo_1297" data-name="Rectángulo 1297" width="24" height="24" fill="none"/>
+  <g id="Grupo_1732" data-name="Grupo 1732" transform="translate(4.999 3)">
+    <path id="Rectángulo_1298" data-name="Rectángulo 1298" d="M0,0H14a0,0,0,0,1,0,0V9a4,4,0,0,1-4,4H4A4,4,0,0,1,0,9V0A0,0,0,0,1,0,0Z" transform="translate(0.001 4)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="0.6"/>
+    <path id="Trazado_1210" data-name="Trazado 1210" d="M0,6H4A3,3,0,0,0,4,0H0" transform="translate(4.001 7) rotate(-90)" fill="none" stroke="#fff" stroke-width="0.6"/>
+    <circle id="Elipse_198" data-name="Elipse 198" cx="1" cy="1" r="1" transform="translate(9.001 6)" fill="#fff"/>
+    <circle id="Elipse_199" data-name="Elipse 199" cx="1" cy="1" r="1" transform="translate(3.001 6)" fill="#fff"/>
+    <path id="Trazado_1211" data-name="Trazado 1211" d="M-11230-5319.687h8" transform="translate(11230.001 5330.688)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="0.6"/>
+    <path id="Trazado_1212" data-name="Trazado 1212" d="M-11229.325-5320h6" transform="translate(11229.325 5333)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="0.6"/>
+  </g>
+</svg>

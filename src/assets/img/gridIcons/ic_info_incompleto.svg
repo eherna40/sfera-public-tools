@@ -1,0 +1,8 @@
+<svg id="ic_info_incompleto" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_2282" data-name="Rectángulo 2282" width="20" height="20" fill="none"/>
+  <g id="Elipse_375" data-name="Elipse 375" transform="translate(17 17) rotate(180)" fill="none" stroke="#ff5b52" stroke-width="2" stroke-dasharray="2">
+    <circle cx="7" cy="7" r="7" stroke="none"/>
+    <circle cx="7" cy="7" r="6" fill="none"/>
+  </g>
+  <path id="Trazado_1941" data-name="Trazado 1941" d="M7,0A7,7,0,0,1,7,14" transform="translate(17 17) rotate(180)" fill="#ff5b52"/>
+</svg>

@@ -1,0 +1,119 @@
+<mjml>
+<mj-head>
+    <mj-style>
+        @media (max-width:480px) {
+
+        .centered div {
+        text-align: center !important;
+        }
+        }
+
+    </mj-style>
+</mj-head>
+  <mj-body
+    background-color="#F4F4F4"
+    color="#55575d"
+    font-family="Arial, sans-serif"
+  >
+    <mj-section
+      background-color="#3FCBD9"
+      background-repeat="repeat"
+      padding="20px 0"
+      text-align="center"
+      vertical-align="top"
+    >
+      <mj-column>
+        <mj-image
+          align="center"
+          src="./img/logo_big.png"
+          width="250px"
+        ></mj-image>
+        <mj-text
+          padding-top="25px"
+          color="#FFFFFF"
+          align="center"
+          font-size="14px"
+          font-weight="600"
+          >¡Bienvenido, su farmacia ha sido dada de alta!</mj-text
+        >
+      </mj-column>
+    </mj-section>
+    <mj-section
+      background-color="#ffffff"
+      background-repeat="repeat"
+      padding="20px 0"
+      text-align="center"
+      vertical-align="top"
+    >
+      <mj-column width="100%">
+        <mj-text font-size="16px" line-height="24px"
+          >Estimado Joan Martínez Folguerola,
+          <b>hemos gestionado el alta de su farmacia</b> en la plataforma SFERA.
+          Los datos de alta son los siguientes:</mj-text
+        >
+
+        <mj-text font-size="14px"
+          ><span style="color: #22949B;"><b>Farmacia del Mercat Hostafrancs</b></span> 
+          </br></br>
+          <span style="color: #797979;">Carrer de la Creu Coberta, 95, 08014 Barcelona</mj-text
+        >
+        <mj-text font-size="14px" color="#797979"
+          ></mj-text
+        >
+
+        <mj-text font-size="16px" line-height="24px"
+          >Para activar tu farmacia tan solo tendrás que iniciar sesión en la
+          plataforma con los siguientes <b>datos de acceso</b>:</mj-text
+        >
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff">
+      <mj-column width="30%" background-color="#F6FBFB" css-class="centered">
+        <mj-text font-size="12px" color="#22949B"
+          ><b>Código de la farmacia</b></mj-text
+        >
+        <mj-text font-size="12px">120153</mj-text>
+      </mj-column>
+      <mj-column width="30%" background-color="#F6FBFB" css-class="centered">
+        <mj-text font-size="12px" color="#22949B"
+          ><b>Nombre de usuario</b></mj-text
+        >
+        <mj-text font-size="12px">JOAN M.</mj-text>
+      </mj-column>
+      <mj-column width="30%" background-color="#F6FBFB"css-class="centered">
+        <mj-text font-size="12px" color="#22949B"><b>Código PIN</b></mj-text>
+        <mj-text font-size="12px">123456</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff">
+      <mj-column width="100%">
+        <<mj-button href="https://www.sferafarma.com" width="200px" height="25px" background-color="#22949B"> ACCEDER A SFERA </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff">
+      <mj-column width="100%">
+        <mj-text font-size="12px" line-height="17px" color="#707070"
+          >Este mensaje ha sido generado automaticamente. Por favor no responda
+          a este correo electrónico. Para ponerse en contacto con nosotros, haga
+          click en
+            <a style="color: #22949b" href="https://www.sferafarma.com"><b><u>Ayuda y Contacto</u></b></a>:</mj-text
+        >
+      </mj-column>
+
+      <mj-column width="100%" css-class="centered">
+        <mj-text font-size="12px" line-height="17px"
+          ><b
+            >Copyright &copy 2021 SFERA By SERTEC. Todos los derechos
+            reservados</b
+          ></mj-text
+        >
+        <mj-text font-size="14px" line-height="17px"
+          ><b><a style="color: #3FCBD9" href="https://www.sferafarma.com">www.sferafarma.com</a></b></mj-text
+        >
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

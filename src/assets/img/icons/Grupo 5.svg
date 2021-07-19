@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Grupo_5" data-name="Grupo 5" transform="translate(-945 -525)">
+    <g id="ic_btn_barcode" transform="translate(945 525)">
+      <g id="Grupo_1" data-name="Grupo 1" transform="translate(-1217 -909)">
+        <path id="Trazado_1" data-name="Trazado 1" d="M20,0H17V3" transform="translate(1207 915)" fill="none" stroke="#555" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <path id="Trazado_2" data-name="Trazado 2" d="M20,3H17V0" transform="translate(1207 930)" fill="none" stroke="#555" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <path id="Trazado_3" data-name="Trazado 3" d="M17,0h3V3" transform="translate(1220 915)" fill="none" stroke="#555" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <path id="Trazado_4" data-name="Trazado 4" d="M17,3h3V0" transform="translate(1220 930)" fill="none" stroke="#555" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      </g>
+      <path id="Trazado_5" data-name="Trazado 5" d="M-396.912,2791h20" transform="translate(401.912 -2776)" fill="none" stroke="#555" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <rect id="Rectángulo_1" data-name="Rectángulo 1" width="30" height="30" fill="none"/>
+    </g>
+  </g>
+</svg>

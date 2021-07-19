@@ -1,0 +1,13 @@
+<svg id="ic_info_no_consejos" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Grupo_3790" data-name="Grupo 3790">
+    <rect id="Rectángulo_2294" data-name="Rectángulo 2294" width="20" height="20" fill="none"/>
+    <g id="Grupo_3782" data-name="Grupo 3782" transform="translate(3 4.829) rotate(-45)">
+      <path id="Polígono_32" data-name="Polígono 32" d="M2,0,4,3H0Z" transform="translate(4 18.586) rotate(180)" fill="#786ade"/>
+      <rect id="Rectángulo_2295" data-name="Rectángulo 2295" width="4" height="13" transform="translate(0 1)" fill="#786ade"/>
+      <path id="Rectángulo_2296" data-name="Rectángulo 2296" d="M1,0H3A1,1,0,0,1,4,1V3A0,0,0,0,1,4,3H0A0,0,0,0,1,0,3V1A1,1,0,0,1,1,0Z" transform="translate(0 0)" fill="#786ade"/>
+    </g>
+  </g>
+  <rect id="Rectángulo_2272" data-name="Rectángulo 2272" width="20" height="20" fill="none"/>
+  <rect id="Rectángulo_2375" data-name="Rectángulo 2375" width="2" height="12" transform="translate(11.985 5.101) rotate(45)" fill="#fff"/>
+  <rect id="Rectángulo_2376" data-name="Rectángulo 2376" width="2" height="17" transform="translate(15.521 3.565) rotate(45)" fill="#786ade"/>
+</svg>

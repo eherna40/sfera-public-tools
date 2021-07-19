@@ -1,0 +1,12 @@
+<svg id="ic_info_monodosis" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectángulo_2391" data-name="Rectángulo 2391" width="20" height="20" fill="none"/>
+  <g id="Grupo_3797" data-name="Grupo 3797" transform="translate(-223.101 -529.611)">
+    <g id="Grupo_3403" data-name="Grupo 3403" transform="translate(581.775 9.373) rotate(45)">
+      <path id="Rectángulo_2005" data-name="Rectángulo 2005" d="M0,0H8.627a0,0,0,0,1,0,0V2.686A4.314,4.314,0,0,1,4.314,7h0A4.314,4.314,0,0,1,0,2.686V0A0,0,0,0,1,0,0Z" transform="translate(124 622.971)" fill="#786ade"/>
+      <g id="Rectángulo_2006" data-name="Rectángulo 2006" transform="translate(132.627 623) rotate(180)" fill="none" stroke="#786ade" stroke-width="2">
+        <path d="M0,0H8.627a0,0,0,0,1,0,0V5.686A4.314,4.314,0,0,1,4.314,10h0A4.314,4.314,0,0,1,0,5.686V0A0,0,0,0,1,0,0Z" stroke="none"/>
+        <path d="M1.174,1H7.453a.174.174,0,0,1,.174.174V5.686A3.314,3.314,0,0,1,4.314,9h0A3.314,3.314,0,0,1,1,5.686V1.174A.174.174,0,0,1,1.174,1Z" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

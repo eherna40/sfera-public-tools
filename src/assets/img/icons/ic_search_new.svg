@@ -1,0 +1,11 @@
+<svg id="ic_search_new" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="Rectángulo_1349" data-name="Rectángulo 1349" width="24" height="24" transform="translate(24 24) rotate(180)" fill="none"/>
+  <g id="Grupo_2127" data-name="Grupo 2127" transform="translate(-247.209 -529.999)">
+    <g id="Grupo_2126" data-name="Grupo 2126" transform="translate(266.999 549.79) rotate(180)">
+      <path id="Trazado_1271" data-name="Trazado 1271" d="M14.036,7.018A7.018,7.018,0,1,1,7.018,0a7.018,7.018,0,0,1,7.018,7.018Z" transform="translate(15.79 15.79) rotate(180)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Trazado_1272" data-name="Trazado 1272" d="M3.816,3.816,0,0" transform="translate(3.816 3.816) rotate(180)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+    <path id="Trazado_1269" data-name="Trazado 1269" d="M18.536,11.518A7.018,7.018,0,1,1,11.518,4.5a7.018,7.018,0,0,1,7.018,7.018Z" transform="translate(246.709 529.5)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Trazado_1270" data-name="Trazado 1270" d="M28.791,28.791l-3.816-3.816" transform="translate(238.208 520.999)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  </g>
+</svg>

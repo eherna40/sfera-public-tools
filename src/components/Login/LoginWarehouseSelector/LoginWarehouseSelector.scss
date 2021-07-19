@@ -1,0 +1,22 @@
+@import '../../../infrastructure/styles/base/variables';
+
+.WarehouseSelector{
+  .WarehouseSelector-image{
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .title{
+   color: $purple;
+   text-align: center;
+   display: block;
+  }
+  .button-enter{
+    background-color: #786ADE;
+    font-size: 14px;
+    padding: 10px 20px;
+    border: 1px solid white;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+    width: 150px;
+    margin: 0 auto;
+  }
+}

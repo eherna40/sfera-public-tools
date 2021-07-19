@@ -1,0 +1,7 @@
+/* #tpv > .ag-theme-alpine .ag-ltr .ag-cell :enabled {
+  border-bottom: 5px solid #22949b !important;
+} */
+
+#tpv > .ag-row-focus.ag-row-selected {
+  background: red !important;
+}

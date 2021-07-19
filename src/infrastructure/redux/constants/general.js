@@ -1,0 +1,1 @@
+export const SET_PHARMA_CODE = 'SET_PHARMA_CODE'

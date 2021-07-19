@@ -1,0 +1,10 @@
+<svg id="ic_keyboard_material" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="Elipse_160" data-name="Elipse 160" fill="#786ade" stroke="#b2a8f8" stroke-width="1">
+    <circle cx="16" cy="16" r="16" stroke="none"/>
+    <circle cx="16" cy="16" r="15.5" fill="none"/>
+  </g>
+  <g id="keyboard-24px" transform="translate(2 2)">
+    <path id="Trazado_1287" data-name="Trazado 1287" d="M16.4,5H3.6A1.519,1.519,0,0,0,2.008,6.429L2,13.571A1.526,1.526,0,0,0,3.6,15H16.4A1.526,1.526,0,0,0,18,13.571V6.429A1.526,1.526,0,0,0,16.4,5ZM9.2,7.143h1.6V8.571H9.2Zm0,2.143h1.6v1.429H9.2ZM6.8,7.143H8.4V8.571H6.8Zm0,2.143H8.4v1.429H6.8ZM6,10.714H4.4V9.286H6ZM6,8.571H4.4V7.143H6Zm7.2,5H6.8V12.143h6.4Zm0-2.857H11.6V9.286h1.6Zm0-2.143H11.6V7.143h1.6Zm2.4,2.143H14V9.286h1.6Zm0-2.143H14V7.143h1.6Z" transform="translate(4 4)" fill="#fff"/>
+    <path id="Trazado_1288" data-name="Trazado 1288" d="M0,0H28V28H0ZM0,0H28V28H0Z" fill="none"/>
+  </g>
+</svg>

@@ -1,0 +1,51 @@
+export const searchClientsAndPatients = [
+  {
+    field: 'id',
+    headerName: 'Código',
+    width: 100,
+    type: ['options', 'id'],
+    floatingFilter: true,
+  },
+  {
+    field: 'nombre',
+    headerName: 'Cliente',
+    width: 300,
+    type: 'text',
+    floatingFilter: true,
+  },
+  {
+    field: 'cip',
+    headerName: 'CIP',
+    width: 180,
+    type: 'text',
+    floatingFilter: true,
+  },
+  {
+    field: 'telefono1',
+    headerName: 'Teléfono móvil',
+    width: 180,
+    type: 'text',
+    floatingFilter: true,
+  },
+  {
+    field: 'email',
+    headerName: 'Correo electrónico',
+    width: 190,
+    type: 'text',
+    floatingFilter: true,
+  },
+  {
+    field: 'paciente_nombre',
+    headerName: 'Paciente',
+    width: 300,
+    type: 'text',
+    floatingFilter: true,
+  },
+  {
+    field: 'paciente_telefono1',
+    headerName: 'Teléfono móvil paciente',
+    width: 180,
+    type: 'text',
+    floatingFilter: true,
+  },
+]

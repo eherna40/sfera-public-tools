@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24.616" height="22.5" viewBox="0 0 24.616 22.5">
+  <g id="ic_master_pdf" transform="translate(-8.445 -10.25)">
+    <path id="Trazado_34" data-name="Trazado 34" d="M3,0h9l6,6V9.733" transform="translate(12 11)" fill="none" stroke="#786ade" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Trazado_35" data-name="Trazado 35" d="M303,1560v6h6" transform="translate(-279 -1549)" fill="none" stroke="#786ade" stroke-linejoin="round" stroke-width="1.5"/>
+    <g id="Grupo_13" data-name="Grupo 13" transform="translate(974 -222) rotate(90)">
+      <path id="Trazado_36" data-name="Trazado 36" d="M201,1751h4" transform="translate(45 -807)" fill="none" stroke="#786ade" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Trazado_37" data-name="Trazado 37" d="M204,1749l2,2-2,2" transform="translate(45 -807)" fill="none" stroke="#786ade" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+    <path id="Trazado_38" data-name="Trazado 38" d="M201,1751h4" transform="translate(233 1783) rotate(180)" fill="none" stroke="#786ade" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Trazado_39" data-name="Trazado 39" d="M0,21a1,1,0,0,0,1,1H6" transform="translate(36 11) rotate(90)" fill="none" stroke="#786ade" stroke-linecap="round" stroke-width="1.5"/>
+    <text id="_.PDF" data-name=".PDF" transform="translate(8.445 25)" fill="#786ade" font-size="7" font-family="SegoeUIBlack, Segoe UI"><tspan x="0" y="0">.PDF</tspan></text>
+    <path id="Trazado_40" data-name="Trazado 40" d="M21,11V21a1,1,0,0,1-1,1H17" transform="translate(36 11) rotate(90)" fill="none" stroke="#786ade" stroke-linecap="round" stroke-width="1.5"/>
+  </g>
+</svg>

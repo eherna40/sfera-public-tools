@@ -1,0 +1,67 @@
+export const gridOptions = {
+  columnDefs: [
+    {
+      headerName: '#',
+      field: 'id',
+      width: 50,
+      floatingFilter: false,
+      type: 'rightAligned',
+      filter: 'agNumberColumnFilter',
+      hide: true,
+      suppressToolPanel: true,
+    },
+    {
+      headerName: 'Codigo',
+      field: 'codigo',
+      enableRowGroup: false,
+      width: 100,
+      type: 'rightAligned',
+      filter: 'agTextColumnFilter',
+    },
+    {
+      headerName: 'Nombre',
+      field: 'descripcion',
+      width: 200,
+      filter: 'agTextColumnFilter',
+    },
+    {
+      headerName: 'PVP',
+      field: 'pvp',
+      width: 200,
+      type: 'rightAligned',
+      filter: 'agNumberColumnFilter',
+    },
+    {
+      headerName: 'Stock',
+      field: 'stock',
+      width: 120,
+      type: 'rightAligned',
+      filter: 'agNumberColumnFilter',
+    },
+    {
+      headerName: 'Fabricante',
+      field: 'fabricante',
+      width: 120,
+      filter: 'agTextColumnFilter',
+    },
+    {
+      headerName: 'Proveedor',
+      field: 'proveedor',
+      width: 120,
+      filter: 'agTextColumnFilter',
+    },
+  ],
+
+  rowModelType: 'serverSide',
+  paginationPageSize: 100,
+  defaultColDef: {
+    sortable: true,
+    filter: true,
+    resizable: true,
+    floatingFilter: true,
+    enableRowGroup: true,
+  },
+  rowGroupPanelShow: 'always',
+  rowHeight: 30,
+  domLayout: 'autoHeight',
+}
