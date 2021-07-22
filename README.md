@@ -10,7 +10,7 @@
 
 - Code block with color and line numbers：
 ```javascript=16
-git clone
+git clone https://github.com/ehernandezlabelgrup/sfera-public-tools.git
 npm i
 npm run storybook
 ```
