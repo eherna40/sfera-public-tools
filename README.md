@@ -2,11 +2,11 @@
 
 ###### tags: `sfera-public-tools`
 
-> Esta libreria puede sufrir retraso en actualizaciones
-> Esta libreria es solo para uso de revisiones, y se ejecuta a nivel visual
+> Esta librería puede sufrir retraso en actualizaciones. 
+> Únicamente está destinada para uso en revisiones, y se ejecuta a nivel visual.
 
 
-## Instalción & arraque
+## Instalación & arranque
 
 - Code block with color and line numbers：
 ```javascript=16
@@ -17,5 +17,5 @@ npm run storybook
 
 ## Observaciones
 
-- Esta libreria solo sera ejecuta en modo stories de storybook. En ningun caso contendra informacion relevante del proyecto, tan solo de sus componentes.
-- Algunos componentes pueden tener ciertos errors que iremos arreglando.
+- Esta librería solo sera ejecuta en modo stories de storybook. En ningún caso contendrá información relevante del proyecto, tan solo de sus componentes.
+- Algunos componentes pueden tener ciertos errores que iremos arreglando.
